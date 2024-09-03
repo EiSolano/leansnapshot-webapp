@@ -4,12 +4,12 @@
             "customOpenIdConnectProviders": {
                 "auth0": {
                     "registration": {
-                        "clientIdSettingName": "${AUTH0_CLIENT_ID}",
+                        "clientIdSettingName": "DJl8ZVluB7lxuzzLKZ7KOHxjL7B4OjtU",
                         "clientCredential": {
-                            "clientSecretSettingName": "${AUTH0_CLIENT_SECRET}"
+                            "clientSecretSettingName": "sSLmz9Gi2o4z2YqnGQng52TZhKWwFiz0z3qQqqrFVyIy_PjaU0W5eQca5fd4BXhg"
                         },
                         "openIdConnectConfiguration": {
-                            "wellKnownOpenIdConfiguration": "${AUTH0_ISSUER_BASE_URL}/.well-known/openid-configuration"
+                            "wellKnownOpenIdConfiguration": "https://dev-1dckir0h5uznqb8k.us.auth0.com/.well-known/openid-configuration"
                         }
                     },
                     "login": {
